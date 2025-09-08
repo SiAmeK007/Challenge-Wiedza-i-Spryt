@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[Nazwa Aplikacji] – Pobierz w App Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: #fff;
+      background: #0070c9;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #005a99;
+    }
+    .appstore-badge {
+      margin-top: 20px;
+    }
+    .appstore-badge img {
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Zrób X szybciej dzięki <br>Challenge Wiedza i Spryt</h1>
+    <p>✅ Intuicyjna i prosta w obsłudze</p>
+    <p>✅ Dostępna wyłącznie na iOS</p>
+    <p>✅ Pobierz za darmo i zacznij od razu</p>
+
+
+    <a href="https://apps.apple.com/pl/app/challenge-wiedza-i-spryt/id6751839508?l=pl" class="btn">
+      Pobierz w App Store
+    </a>
+
+    <div class="appstore-badge">
+      <a href="https://apps.apple.com/pl/app/challenge-wiedza-i-spryt/id6751839508?l=pl">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+      </a>
+    </div>
+  </div>
+</body>
+</html>
